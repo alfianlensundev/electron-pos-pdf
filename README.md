@@ -9,8 +9,8 @@ requires electron >= 6.x.x.
 
 ### Installation
 ```bash
-$ npm install electron-pos-printer
-$ yarn add electron-pos-printer
+$ npm install electron-pos-pdf
+$ yarn add electron-pos-pdf
 ```
 ### Demo
 Check out this [Demo](https://github.com/fssonca/electron-printer ) by [fssonca](https://github.com/fssonca)
@@ -110,7 +110,7 @@ const data = [
     },
 ]
 
-PosPrinter.print(data, options)
+PosPrinter.getPdfBuffer(data, options)
  .then(console.log)
  .catch((error) => {
     console.error(error);
@@ -122,7 +122,7 @@ PosPrinter.print(data, options)
 ### Usage
 
 ```typescript
-import {PosPrinter, PosPrintData, PosPrintOptions} from "electron-pos-printer";
+import {PosPrinter, PosPrintData, PosPrintOptions} from "electron-pos-pdf";
 import * as path from "path";
 
 const options: PosPrintOptions = {
@@ -207,7 +207,7 @@ const data: PosPrintData[] = [
     },
 ]
 
-PosPrinter.print(data, options)
+PosPrinter.getPdfBuffer(data, options)
  .then(console.log)
  .catch((error) => {
     console.error(error);
@@ -263,6 +263,10 @@ PosPrinter.print(data, options)
 | tableFooterStyle | (string) set custom style to the table footer                                                                   |
 
 ## Author
+ - Alfian Lensun
+ - alfianlensundev@gmail.com
+
+## Fork from
  - Hubert Formin
  - hformin@gmail.com
  - Twitter: @hformin

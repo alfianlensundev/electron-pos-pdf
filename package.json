@@ -1,6 +1,6 @@
 {
   "name": "electron-pos-pdf",
-  "version": "1.3.2",
+  "version": "1.4.0",
   "description": "Electron POS PDF generator",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hubertformin/electron-pos-printer.git"
+    "url": "git+https://github.com/alfianlensundev/electron-pos-pdf.git"
   },
   "keywords": [
     "electron",
@@ -29,9 +29,9 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Hubertformin/electron-pos-printer/issues"
+    "url": "https://github.com/alfianlensundev/electron-pos-pdf/issues"
   },
-  "homepage": "https://github.com/Hubertformin/electron-pos-printer#readme",
+  "homepage": "https://github.com/alfianlensundev/electron-pos-pdf#readme",
   "dependencies": {
     "jsbarcode": "^3.11.5",
     "qrcode": "^1.5.1"
