@@ -18,14 +18,14 @@ Check out this [Demo](https://github.com/fssonca/electron-printer ) by [fssonca]
 ### Usage
 #### In main process
 ```js
-const {PosPrinter} = require("electron-pos-printer");
+const {PosPrinter} = require("electron-pos-pdf");
 ```
 #### In render process
 ```js
-const {PosPrinter} = require('electron').remote.require("electron-pos-printer");
+const {PosPrinter} = require('electron').remote.require("electron-pos-pdf");
 ```
 ```js
-const {PosPrinter} = require("electron-pos-printer");
+const {PosPrinter} = require("electron-pos-pdf");
 const path = require("path");
 
 const options = {
@@ -62,7 +62,7 @@ const data = [
         fontsize: 12,
     },{
         type: 'qrCode',
-        value: 'https://github.com/Hubertformin/electron-pos-printer',
+        value: 'https://github.com/Hubertformin/electron-pos-pdf',
         height: 55,
         width: 55,
         style: { margin: '10 20px 20 20px' }
@@ -159,7 +159,7 @@ const data: PosPrintData[] = [
         fontsize: 12,
     },{
         type: 'qrCode',
-        value: 'https://github.com/Hubertformin/electron-pos-printer',
+        value: 'https://github.com/Hubertformin/electron-pos-pdf',
         height: 55,
         width: 55,
         style: { margin: '10 20px 20 20px' }
