@@ -76,7 +76,7 @@ class PosPrinter {
                                 landscape: false,
                                 pageSize: {
                                     width: 3,
-                                    height: 4
+                                    height: 12
                                 }
                             }).then((res) => {
                                 printedState = true;
