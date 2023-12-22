@@ -1,9 +1,9 @@
 
-![License](https://img.shields.io/npm/l/electron-pos-printer)
-![Version](https://img.shields.io/npm/v/electron-pos-printer?label=version)
-![Issues](https://img.shields.io/github/issues/Hubertformin/electron-pos-printer)
+![License](https://img.shields.io/npm/l/electron-pos-pdf)
+![Version](https://img.shields.io/npm/v/electron-pos-pdf?label=version)
+![Issues](https://img.shields.io/github/issues/Hubertformin/electron-pos-pdf)
 
-# Electron-pos-printer
+# Electron-pos-pdf
 An electron printer plugin, currently supports 58mm, 
 requires electron >= 6.x.x.
 
